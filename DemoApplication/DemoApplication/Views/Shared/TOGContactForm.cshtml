@@ -1,0 +1,62 @@
+﻿@*The MIT License (MIT)
+
+Copyright (c) The Other Guys Ltd http://whytheotherguys.com
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.*@
+
+<div class="row">
+    <div class="col-sm-12 text-center">
+        <h2>Contact Us</h2>
+        <h5>Please fill out the form to send us a message</h5>
+    </div>
+    <div class="col-sm-6">
+        <div class="form-group">
+            <label for="TOGContactForm_Name">Name</label>
+            <input id="TOGContactForm_Name" type="text" class="form-control" />
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="form-group">
+            <label for="TOGContactForm_Email">Email</label>
+            <input id="TOGContactForm_Email" type="email" class="form-control" />
+        </div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="col-sm-12">
+        <div class="form-group">
+            <label for="TOGContactForm_Message">Message</label>
+            <textarea id="TOGContactForm_Message" rows="5" style="resize: none" class="form-control"></textarea>
+        </div>
+    </div>
+    <div class="col-sm-12 text-center">
+        <div class="form-group">
+            <button id="TOGContactForm_Submit" class="btn btn-primary">Send</button>
+        </div>
+    </div>
+    <div id="TOGContactForm_Alert" class="col-sm-12" style="display: none">
+        <div class="form-group">
+            <div class="alert alert-danger"><strong>Attention!</strong> <span id="TOGContactForm_Alert_Message"></span></div>
+        </div>
+    </div>
+    <div id="TOGContactForm_Success" class="col-sm-12" style="display: none">
+        <div class="form-group">
+            <div class="alert alert-success"><span id="TOGContactForm_Success_Message"></span></div>
+        </div>
+    </div>
+</div>
